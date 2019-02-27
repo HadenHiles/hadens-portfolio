@@ -11,7 +11,8 @@ const Header = ({ siteTitle }) => (
             <div className="info">
               <i className="icon ion-ios-location-outline"></i>
               <div className="right-area">
-                <h5>Mount St. Louis Moonstone</h5>
+                <h5>25 Alpine Dr.</h5>
+                <h5>Moonstone, Ontario</h5>
               </div>
             </div>
           </div>
@@ -20,6 +21,7 @@ const Header = ({ siteTitle }) => (
             <div className="info">
               <i className="icon ion-ios-telephone-outline"></i>
               <div className="right-area">
+                <h6>Cell:</h6>
                 <h5>705-984-7625</h5>
               </div>
             </div>
@@ -29,6 +31,7 @@ const Header = ({ siteTitle }) => (
             <div className="info">
               <i className="icon ion-ios-chatboxes-outline"></i>
               <div className="right-area">
+                <h6>Email:</h6>
                 <h5>hadenhiles@gmail.com</h5>
               </div>
             </div>

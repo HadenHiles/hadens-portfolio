@@ -30,15 +30,15 @@ const Layout = ({ children }) => (
                   <h4 className="font-yellow">Web Developer</h4>
                   <ul className="information margin-tb-30">
                     <li><b>BORN : </b>July 28, 1995</li>
-                    <li><b>EMAIL : </b>hadenhiles@gmail.com</li>
-                    <li><b>MARITAL STATUS : </b>In a Relationship</li>
+                    <li><b>EMAIL : </b><a href="mailto:hadenhiles@gmail.com">hadenhiles@gmail.com</a></li>
+                    <li><b>RELATIONSHIP STATUS : </b>In a Relationship</li>
                   </ul>
                   <ul className="social-icons">
-                    <li><a href="#"><i className="ion-social-pinterest"></i></a></li>
-                    <li><a href="#"><i className="ion-social-linkedin"></i></a></li>
-                    <li><a href="#"><i className="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i className="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i className="ion-social-twitter"></i></a></li>
+                    <li><a href="https://github.com/HadenHiles"><i className="ion-social-github"></i></a></li>
+                    <li><a href="https://ca.linkedin.com/in/haden-hiles-67610882"><i className="ion-social-linkedin"></i></a></li>
+                    <li><a href="https://instagram.com/hadenhiles/"><i className="ion-social-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/haden.hiles"><i className="ion-social-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/HadenHiles"><i className="ion-social-twitter"></i></a></li>
                   </ul>
                 </div>
               </div>
