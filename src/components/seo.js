@@ -65,11 +65,11 @@ function SEO({ description, lang, meta, keywords, title }) {
 
           {/* Portfolio theme */}
           <link type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet" />
-          <link type="text/css" href="theme/bootstrap.css" rel="stylesheet" />
-          <link type="text/css" href="theme/ionicons.css" rel="stylesheet" />
-          <link type="text/css" href="theme/fluidbox.min.css" rel="stylesheet" />
-          <link type="text/css" href="theme/portfolio/styles.css" rel="stylesheet" />
-          <link type="text/css" href="theme/portfolio/responsive.css" rel="stylesheet" />
+          <link type="text/css" href="static/theme/bootstrap.css" rel="stylesheet" />
+          <link type="text/css" href="static/theme/ionicons.css" rel="stylesheet" />
+          <link type="text/css" href="static/theme/fluidbox.min.css" rel="stylesheet" />
+          <link type="text/css" href="static/theme/portfolio/styles.css" rel="stylesheet" />
+          <link type="text/css" href="static/theme/portfolio/responsive.css" rel="stylesheet" />
           </Helmet>
         )
       }}

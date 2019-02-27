@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
               <div className="col-md-1 col-lg-2"></div>
               <div className="col-md-10 col-lg-8">
                 <div className="intro">
-                  <div className="profile-img"><img src="theme/images/profile-1-250x250.jpg" alt=""/></div>
+                  <div className="profile-img"><img src="static/theme/images/profile-1-250x250.jpg" alt=""/></div>
                   <h2><b>Haden Hiles</b></h2>
                   <h4 className="font-yellow">Web Developer</h4>
                   <ul className="information margin-tb-30">
@@ -52,14 +52,14 @@ const Layout = ({ children }) => (
           <a href="https://www.gatsbyjs.org">Gatsby</a>
 
           {/* Theme scripts */}
-          <script src="theme/jquery-3.2.1.min.js"></script>
-          <script src="theme/tether.min.js"></script>
-          <script src="theme/bootstrap.js"></script>
-          <script src="theme/isotope.pkgd.min.js"></script>
-          <script src="theme/jquery.waypoints.min.js"></script>
-          <script src="theme/progressbar.min.js"></script>
-          <script src="theme/jquery.fluidbox.min.js"></script>
-          <script src="theme/scripts.js"></script>
+          <script src="static/theme/jquery-3.2.1.min.js"></script>
+          <script src="static/theme/tether.min.js"></script>
+          <script src="static/theme/bootstrap.js"></script>
+          <script src="static/theme/isotope.pkgd.min.js"></script>
+          <script src="static/theme/jquery.waypoints.min.js"></script>
+          <script src="static/theme/progressbar.min.js"></script>
+          <script src="static/theme/jquery.fluidbox.min.js"></script>
+          <script src="static/theme/scripts.js"></script>
         </footer>
       </>
     )}
