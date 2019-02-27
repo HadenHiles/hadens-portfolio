@@ -3,30 +3,40 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <header>
+    <div className="container">
+      <div className="heading-wrapper">
+        <div className="row">
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            <div className="info">
+              <i className="icon ion-ios-location-outline"></i>
+              <div className="right-area">
+                <h5>Mount St. Louis Moonstone</h5>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            <div className="info">
+              <i className="icon ion-ios-telephone-outline"></i>
+              <div className="right-area">
+                <h5>705-984-7625</h5>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            <div className="info">
+              <i className="icon ion-ios-chatboxes-outline"></i>
+              <div className="right-area">
+                <h5>hadenhiles@gmail.com</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <a className="downlad-btn" href="#">Download CV</a>
     </div>
   </header>
 )
