@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
                   <ul className="information margin-tb-30">
                     <li><b>BORN : </b>July 28, 1995</li>
                     <li><b>EMAIL : </b><a href="mailto:hadenhiles@gmail.com">hadenhiles@gmail.com</a></li>
-                    <li><b>RELATIONSHIP STATUS : </b>In a Relationship</li>
+                    <li><b>RELATIONSHIP : </b>In a Relationship</li>
                   </ul>
                   <ul className="social-icons">
                     <li><a href="https://github.com/HadenHiles"><i className="ion-social-github"></i></a></li>
@@ -45,6 +45,26 @@ const Layout = ({ children }) => (
             </div>
           </div>
         </section>
+        <section className="portfolio-section section">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-sm-4">
+                <div className="heading">
+                  <h3><b>Portfolio</b></h3>
+                  <h6 className="font-lite-black"><b>MY WORK</b></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="portfolioContainer">
+            <div className="p-item web-design">
+              <a href="static/theme/images/portfolio-1-600x400.jpg" data-fluidbox>
+                <img src="static/theme/images/portfolio-1-600x400.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+	      </section>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
