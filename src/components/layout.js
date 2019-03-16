@@ -45,26 +45,6 @@ const Layout = ({ children }) => (
             </div>
           </div>
         </section>
-        <section className="portfolio-section section">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-sm-4">
-                <div className="heading">
-                  <h3><b>Portfolio</b></h3>
-                  <h6 className="font-lite-black"><b>MY WORK</b></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="portfolioContainer">
-            <div className="p-item web-design">
-              <a href="static/theme/images/portfolio-1-600x400.jpg" data-fluidbox>
-                <img src="static/theme/images/portfolio-1-600x400.jpg" alt="" />
-              </a>
-            </div>
-          </div>
-	      </section>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
