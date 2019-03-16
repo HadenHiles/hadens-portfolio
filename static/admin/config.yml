@@ -8,7 +8,8 @@ public_folder: assets
 collections:
   - name: portfolio
     label: Portfolio
-    folder: static/CMS/portfolio
+    path: static/CMS/portfolio/{{slug}}.md
+
     create: true
     fields:
       - { name: path, label: Path }
