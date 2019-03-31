@@ -2,11 +2,28 @@ import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <StaticQuery
+    query={graphql`
+      query PortfolioQuery {
+        allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
+          edges {
+            node {
+              excerpt(pruneLength: 250)
+              id
+              frontmatter {
+                title
+                date(formatString: "MMMM DD, YYYY")
+                path
+                image
+              }
+            }
+          }
+        }
+      }
+    `}
     render={data => (
       <>
         <Layout>
@@ -24,11 +41,13 @@ const IndexPage = () => (
             </div>
             
             <div className="portfolioContainer">
-              <div className="p-item web-design">
-                <a href="{data.markdownRemark.frontmatter.image}" data-fluidbox>
-                  <img src="{data.markdownRemark.frontmatter.image}" alt="" />
-                </a>
-              </div>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <div className="p-item web-design" key={node.id}>
+                  <a href={node.frontmatter.image} data-fluidbox>
+                    <img src={node.frontmatter.image} alt="" />
+                  </a>
+                </div>
+              ))}
             </div>
           </section>
           <Link to="/page-2/">Go to page 2</Link>
