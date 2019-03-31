@@ -19,13 +19,13 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <section className="intro-section">
+        <section className="intro-section"> 
           <div className="container">
             <div className="row">
               <div className="col-md-1 col-lg-2"></div>
               <div className="col-md-10 col-lg-8">
                 <div className="intro">
-                  <div className="profile-img"><img src="static/theme/images/profile-1-250x250.jpg" alt=""/></div>
+                  <div className="profile-img"><img src="/static/theme/images/profile-1-250x250.jpg" alt=""/></div>
                   <h2><b>Haden Hiles</b></h2>
                   <h4 className="font-yellow">Web Developer</h4>
                   <ul className="information margin-tb-30">
@@ -47,9 +47,7 @@ const Layout = ({ children }) => (
         </section>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} Haden Hiles
 
           {/* Theme scripts */}
           <script src="static/theme/jquery-3.2.1.min.js"></script>

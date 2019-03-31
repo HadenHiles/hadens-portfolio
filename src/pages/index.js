@@ -43,14 +43,13 @@ const IndexPage = () => (
             <div className="portfolioContainer">
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div className="p-item web-design" key={node.id}>
-                  <a href={node.frontmatter.image} data-fluidbox>
+                  <Link to="/portfolio/" state={{ path: node.frontmatter.path }}>
                     <img src={node.frontmatter.image} alt="" />
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>
           </section>
-          <Link to="/page-2/">Go to page 2</Link>
         </Layout>
       </>
     )}
