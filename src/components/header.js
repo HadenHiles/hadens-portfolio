@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
               <i className="icon ion-ios-telephone-outline"></i>
               <div className="right-area">
                 <h6>Cell:</h6>
-                <h5>705-984-7625</h5>
+                <h5><a href="tel:+17059847625">705-984-7625</a></h5>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
               <i className="icon ion-ios-chatboxes-outline"></i>
               <div className="right-area">
                 <h6>Email:</h6>
-                <h5>hadenhiles@gmail.com</h5>
+                <h5><a href="mailto:hadenhiles@gmail.com">hadenhiles@gmail.com</a></h5>
               </div>
             </div>
           </div>

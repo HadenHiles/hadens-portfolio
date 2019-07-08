@@ -31,7 +31,6 @@ const Layout = ({ children }) => (
                   <ul className="information margin-tb-30">
                     <li><b>BORN : </b>July 28, 1995</li>
                     <li><b>EMAIL : </b><a href="mailto:hadenhiles@gmail.com">hadenhiles@gmail.com</a></li>
-                    <li><b>RELATIONSHIP : </b>In a Relationship</li>
                   </ul>
                   <ul className="social-icons">
                     <li><a href="https://github.com/HadenHiles"><i className="ion-social-github"></i></a></li>
